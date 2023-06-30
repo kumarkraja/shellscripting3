@@ -6,3 +6,8 @@ expr 2 + 3
 expr 2 - 3
 expr 2 \* 3
 expr 2 % 3
+A=10
+B=20
+echo "Addition:" `expr 10 + 20`
+echo "Addition" `( expr $A + $B )`
+ 
