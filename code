@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Arthmetic operations"
+
+expr 2 + 3
+expr 2 - 3
+expr 2 \* 3
+expr 2 % 3
